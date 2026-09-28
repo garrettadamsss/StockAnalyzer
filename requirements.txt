@@ -1,0 +1,10 @@
+# The buffett-bargains scripts run on the Python standard library alone when
+# using the default SEC company facts source. Install these only for extras.
+
+# --source yfinance fallback in .cursor/skills/buffett-bargains/scripts/
+yfinance>=0.2.40
+pandas>=2.0
+
+# Optional: pulls 10-K narrative sections (Item 1, Item 7) for the One-Pager.
+# Requires Python 3.10 or newer.
+edgartools>=3.0
